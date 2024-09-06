@@ -1,0 +1,14 @@
+.square {
+  width: 6vw;                              /* Set width for each square */
+  height: 6vw;                             /* Set height for each square */
+  background-color: white;                  /* Background color of the squares */
+  border: 1px solid red;                    /* Border for visibility */
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vw;
+}
